@@ -43,6 +43,8 @@ export default class ModelScreen extends React.Component {
                     ref={modelView => { this.modelView = modelView }}
                     style={styles.modelView}
                     source={{
+                        model: 'https://raw.githubusercontent.com/vitas61/react3dmodel/master/model/newman.obj',
+                        texture: 'https://raw.githubusercontent.com/vitas61/react3dmodel/master/model/Image_0.jpg'
                         //model: require('../obj/Hamburger.obj'),
                         //texture: require('../obj/Hamburger.png')
                         // or
