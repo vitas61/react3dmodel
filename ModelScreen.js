@@ -45,16 +45,6 @@ export default class ModelScreen extends React.Component {
                     source={{
                         model: 'https://raw.githubusercontent.com/vitas61/react3dmodel/master/model/newman.obj',
                         texture: 'https://raw.githubusercontent.com/vitas61/react3dmodel/master/model/Image_0.jpg'
-                        //model: require('../obj/Hamburger.obj'),
-                        //texture: require('../obj/Hamburger.png')
-                        // or
-                        //model: 'https://github.com/BonnierNews/react-native-3d-model-view/blob/master/example/obj/Hamburger.obj?raw=true',
-                        //texture: 'https://github.com/BonnierNews/react-native-3d-model-view/blob/master/example/obj/Hamburger.png?raw=true'
-                        // or
-                        // zip: 'https://github.com/BonnierNews/react-native-3d-model-view/blob/master/example/obj/Hamburger.zip?raw=true'
-                        // unzippedFolderName: 'Hamburger'
-                        // or
-                        // zip: require('../obj/Hamburger.zip')
                     }}
                     onLoadModelStart={this.onLoadModelStart}
                     onLoadModelSuccess={this.onLoadModelSuccess}
